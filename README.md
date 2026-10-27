@@ -1,2 +1,1 @@
-# Prime-Video
 Prime Video Clone using HTML and CSS. A simple web design project inspired by Amazon Prime Video.
