@@ -10,8 +10,8 @@ body {
 }
 
 nav {
-  padding: 15px;
-  padding-left: 20px;
+  /* padding: 15px; */
+  /* padding-left: 20px; */
   display: flex;
   justify-content: space-between;
 }
@@ -21,36 +21,239 @@ nav {
   display: flex;
   list-style: none;
   gap: 5px;
-  font-size: 20px;
+  font-size: 30px;
+  border: 1px solid black;
 }
 
-button {
-  background-color: #141921;
-  color: white;
-  border-radius: 10px;
-  height: 30px;
-  width: 60px;
-}
-
-button:hover {
-  background-image: radial-gradient(black, #1f83d2);
-  border-radius: 25px;
-  transition-duration: 1s;
-}
-
-.btn {
-  width: 100px;
-}
-
-.btn-2 {
-  width: 90px;
-}
-
-.btn-3 {
+.image {
+  margin-left: 50px;
+  margin-top: 30px;
   width: 130px;
+  /* gap: 20px; */
 }
 
-.btn-4 {
-  width: 50px;
-  /* border-radius: 100%; */
+.home:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.home {
+  margin: 20px auto;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+  background-color: white;
+  background-image: radial-gradient(
+    ellipse at top,
+    #d1d2d3 0%,
+    #55585d 35%,
+    #34373c 75%
+  );
+}
+
+.Free:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.Free {
+  margin: 20px auto;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.Movies:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.Movies {
+  margin: 20px auto;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.TV:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.TV {
+  margin: 20px auto;
+  height: 50px;
+  width: 140px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.Live:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.Live {
+  margin: 20px auto;
+  height: 50px;
+  width: 130px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.sub:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.sub {
+  margin: 20px auto;
+  height: 50px;
+  width: 230px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.bar:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.bar {
+  margin: 20px auto;
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.en:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.en {
+  margin: 20px auto;
+  height: 50px;
+  width: 90px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.grid:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.grid {
+  margin: 20px auto;
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.user:hover {
+  background-color: white;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.user {
+  margin: 20px auto;
+  height: 50px;
+  width: 60px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
+}
+
+.join:hover {
+  background-color: blue;
+  /* border-radius: 25px; */
+  transition-duration: 1s;
+  gap: 5px;
+  color: black;
+}
+
+.join {
+  margin: 20px auto;
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 10px;
+  /* justify-content: center; */
+  padding: 10px;
+  color: white;
 }
